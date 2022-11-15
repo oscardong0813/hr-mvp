@@ -1,0 +1,30 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+  text-align: center;
+}
+
+.search-bar{
+  display: inline-flex;
+
+}
+
+.search-word{
+
+}
+
+.search-button{
+
+}
+
+.tag-div{
+
+}
+
+
+

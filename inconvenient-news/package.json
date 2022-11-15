@@ -1,0 +1,31 @@
+{
+  "name": "inconvenient-news",
+  "version": "1.0.0",
+  "description": "a news app pulling news from different perspectives",
+  "main": "index.js",
+  "scripts": {
+    "react-dev": "webpack -d --watch",
+    "start": "nodemon server/index.js"
+  },
+  "author": "lu dong",
+  "license": "none",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "axios": "^0.18.0",
+    "jquery": "^3.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^6.0.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+
+  }
+}
