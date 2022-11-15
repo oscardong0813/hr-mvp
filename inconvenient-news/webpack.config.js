@@ -12,6 +12,14 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+          },
+        ],
+      },
+      {
         test: [/\.jsx$/],
         exclude: /node_modules/,
         loader: 'babel-loader',
@@ -24,10 +32,6 @@ module.exports = {
         use: [
           { loader: 'style-loader' },
           { loader: 'css-loader'
-            // query: {
-            //   modules: true,
-            //   localIdentName: '[name]__[local]___[hash:base64:5]'
-            // }
           }
         ]
       }

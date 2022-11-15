@@ -1301,5 +1301,5 @@ let newsApiData = [
   }
 ]
 
-newsApiData = newsApiData.slice(0,5);
+
 export default newsApiData;
