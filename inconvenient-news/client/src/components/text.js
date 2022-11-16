@@ -1299,6 +1299,11 @@ let newsApiData = [
       "publishedAt": "2022-10-28T14:49:00Z",
       "content": "WASHINGTON, Oct 28 (Reuters) - U.S. President Joe Biden called House Speaker Nancy Pelosi on Friday after a home invasion attack in San Francisco put her 82-year-old husband, Paul Pelosi, in the hosp… [+373 chars]"
   }
-]
+];
 
-export default newsApiData;
+newsApiData.forEach((news) => {
+  if (news.source.id === 'the-washington-post') {
+    console.log(news);
+  }
+  console.log(news.source.id);
+})
